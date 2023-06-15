@@ -164,7 +164,7 @@ Now we submit the calculation to the queue system.
 
    sbatch job_censo.sh 
 
-.. note::
+.. tip::
 
    We can follow the calculation status in the log file :code:`censo.out`
 
@@ -184,7 +184,6 @@ This will create a new folder named :code:`QCALC` with our gaussian inputs.
 .. code:: shell
 
    cd QCALC
-   # this command will display the full contents of a file in our terminal
    cat enso_ensemble_part2_conf_6.com
 
 .. highlight:: none
